@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3",
+    "socket.io": "^4.7.5"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "chatterup",
+  "version": "1.0.0",
+  "description": "Chatting App",
+  "main": "index.js",
+  "author": "Mr Somesh Joshi",
+  "license": "ISC"
+}

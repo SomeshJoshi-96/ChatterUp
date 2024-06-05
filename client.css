@@ -1,0 +1,118 @@
+* {
+  margin: 5px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+#messageBox {
+  max-width: 90%;
+}
+
+#messageForm {
+  margin-top: 90vh;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp4410743.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#onlineIndicator {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#welcomeDiv {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#isTyping {
+  position: absolute;
+  left: 45%;
+  top: 0;
+  background-color: transparent;
+  color: gray;
+  font-size: x-large;
+}
+
+#messageDisplay {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.othersMessage {
+  display: flex;
+  width: 50%;
+  margin-top: 15px;
+  justify-content: space-between;
+  background: none;
+}
+
+.myMessage {
+  display: flex;
+  width: 50%;
+  margin-top: 15px;
+  margin-left: 50%;
+  justify-content: space-between;
+  background: none;
+}
+
+.otherAvatarside {
+  max-width: 50px;
+  max-height: 50px;
+  background: none;
+}
+
+.myAvatarside {
+  max-width: 50px;
+  max-height: 50px;
+  background: none;
+}
+
+.myAvatarside img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.otherAvatarside img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.myTextside {
+  width: 90%;
+  color: black;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.otherTextside {
+  width: 90%;
+  color: black;
+  background-color: wheat;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.nameAndtime {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myMessage .messageText {
+  text-align: right;
+}
